@@ -17,6 +17,8 @@ public class AlbatrossMigration {
     public void runMigrations(){
         Flyway flyway = new Flyway();
         flyway.setDataSource(getDataSource());
+
+        flyway.migrate();
     }
 
     private DataSource getDataSource() {
@@ -27,6 +29,7 @@ public class AlbatrossMigration {
             dataSource.setURL(String.valueOf(dataSourceProperties.get("MYSQL_DB_URL")));
             dataSource.setUser(String.valueOf(dataSourceProperties.get("MYSQL_DB_USERNAME")));
             dataSource.setPassword(String.valueOf(dataSourceProperties.get("MYSQL_DB_PASSWORD")));
+            dataSource.setDatabaseName(String.valueOf(dataSourceProperties.get("MYSQL_DB_NAME")));
             return dataSource;
 
         } catch (IOException e) {
