@@ -7,15 +7,15 @@
         <environment id="development">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://172.17.0.2:3306/alabatross"/>
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://172.17.0.2:3306/albatross"/>
                 <property name="username" value="root"/>
                 <property name="password" value="habana7"/>
             </dataSource>
         </environment>
     </environments>
+    <!-- Register all interfaces in a package as mappers -->
     <mappers>
-        <!--<package name="org.mybatis.builder"/>-->
-        <mapper resource="org/tokencreek/session/mappers.xml"/>
+        <package name="org.tokencreek.mapper"/>
     </mappers>
 </configuration>

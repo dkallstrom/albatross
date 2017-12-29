@@ -5,21 +5,18 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.mybatis.cdi.SessionFactoryProvider;
 
-
 import javax.enterprise.context.ApplicationScoped;
-
-import javax.enterprise.inject.Any;
 import javax.enterprise.inject.Produces;
 import java.io.IOException;
 import java.io.InputStream;
 
-import static org.apache.ibatis.io.Resources.*;
+import static org.apache.ibatis.io.Resources.getResourceAsStream;
 
 
-
+@ApplicationScoped
 public class SqlSessionFactoryProvider {
 
-    @Any
+
     @Produces
     @ApplicationScoped
     @SessionFactoryProvider

@@ -1,10 +1,10 @@
 package org.tokencreek.service;
 
 
-
-import org.mybatis.cdi.Mapper;
+import org.mybatis.cdi.Transactional;
 import org.tokencreek.Company;
 import org.tokencreek.mapper.CompanyMapper;
+import org.tokencreek.qualifiers.AlbatrossMapper;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
@@ -15,12 +15,13 @@ public class CompanyServiceImpl implements CompanyService, Serializable {
 
     private CompanyMapper companyMapper;
 
-    @Inject
+    @Inject @AlbatrossMapper
     public CompanyServiceImpl(CompanyMapper companyMapper){
         this.companyMapper = companyMapper;
     }
 
-    public Company getCompanyById(Long companyId){
+    @Transactional
+    public Company getCompanyById(Integer companyId){
         return companyMapper.findCompanyByCompanyId(companyId);
     }
 
