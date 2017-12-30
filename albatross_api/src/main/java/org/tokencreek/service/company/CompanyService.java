@@ -1,7 +1,7 @@
-package org.tokencreek.service;
+package org.tokencreek.service.company;
 
 
-import org.tokencreek.Company;
+import org.tokencreek.model.company.Company;
 
 public interface CompanyService {
 

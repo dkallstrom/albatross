@@ -1,8 +1,10 @@
 package org.tokencreek.resource;
 
 import com.google.gson.GsonBuilder;
-import org.tokencreek.Company;
-import org.tokencreek.service.CompanyService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.tokencreek.model.company.Company;
+import org.tokencreek.service.company.CompanyService;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
@@ -21,14 +23,17 @@ public class CompanyResource {
 
 
     @Inject
-    private CompanyService companyService;
+    CompanyService companyService;
 
+    static final Logger logger = LoggerFactory.getLogger(CompanyResource.class);
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("company/{companyId}")
     public Response getCompany(@PathParam("companyId")Integer companyId){
-        Company company = companyService.getCompanyById(companyId);
+        logger.info("Company Id {}" , companyId);
+        Company company = this.companyService.getCompanyById(companyId);
         String json = new GsonBuilder().create().toJson(company);
+        logger.info("Json Company  {} ", json);
         return javax.ws.rs.core.Response.ok(json, MediaType.APPLICATION_JSON).build();
     }
 }

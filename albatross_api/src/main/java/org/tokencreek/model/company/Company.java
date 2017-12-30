@@ -1,28 +1,31 @@
-package org.tokencreek;
-
-import javax.inject.Named;
-
+package org.tokencreek.model.company;
 
 public class Company {
 
 
-    private Long companyId;
+    private Long id;
+    private String name;
 
     public Company(){
 
     }
     public Company(Long companyId){
-        this.companyId = companyId;
+        this.id = companyId;
     }
 
-    public Long getCompanyId() {
-        return companyId;
+    public Long getId() {
+        return id;
     }
 
-    public void setCompanyId(Long companyId) {
-        this.companyId = companyId;
+    public void setId(Long id) {
+        this.id = id;
     }
 
+    public String getName() {
+        return name;
+    }
 
-
+    public void setName(String name) {
+        this.name = name;
+    }
 }

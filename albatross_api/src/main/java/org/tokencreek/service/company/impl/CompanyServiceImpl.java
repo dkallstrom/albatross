@@ -1,12 +1,13 @@
-package org.tokencreek.service;
+package org.tokencreek.service.company.impl;
 
 
 import org.mybatis.cdi.Transactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tokencreek.Company;
 import org.tokencreek.mapper.CompanyMapper;
+import org.tokencreek.model.company.Company;
 import org.tokencreek.qualifiers.AlbatrossMapper;
+import org.tokencreek.service.company.CompanyService;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;

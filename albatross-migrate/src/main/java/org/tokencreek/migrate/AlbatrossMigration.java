@@ -17,8 +17,9 @@ public class AlbatrossMigration {
     public void runMigrations(){
         Flyway flyway = new Flyway();
         flyway.setDataSource(getDataSource());
-
+        flyway.setBaselineOnMigrate(true);
         flyway.migrate();
+
     }
 
     private DataSource getDataSource() {

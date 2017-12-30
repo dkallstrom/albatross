@@ -2,8 +2,8 @@ package org.tokencreek.application;
 
 
 import org.tokencreek.api.AlbatrossApi;
-
 import org.tokencreek.resource.CompanyResource;
+import org.tokencreek.resource.EmployeeResource;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -20,6 +20,7 @@ public class AlbatrossApplication extends Application {
         HashSet h = new HashSet<Class<?>> ();
         h.add(AlbatrossApi.class);
         h.add(CompanyResource.class);
+        h.add(EmployeeResource.class);
         return  h;
     }
 }
