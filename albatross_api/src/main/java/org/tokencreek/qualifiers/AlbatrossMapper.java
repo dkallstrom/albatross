@@ -11,5 +11,5 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Qualifier
 @Retention(RUNTIME)
 @Target({TYPE, METHOD, FIELD, PARAMETER, CONSTRUCTOR})
-public @interface AlbatrossMapper {
+public @interface AlbatrossMapper{
 }

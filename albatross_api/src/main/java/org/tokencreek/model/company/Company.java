@@ -1,23 +1,24 @@
 package org.tokencreek.model.company;
 
+import org.tokencreek.model.address.Address;
+
 public class Company {
 
 
-    private Long id;
+    private Integer id;
     private String name;
+    private Address address;
 
-    public Company(){
 
+    public Company(Integer companyId, String name){
+        this.id = companyId; this.name = name;
     }
-    public Company(Long companyId){
-        this.id = companyId;
-    }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -27,5 +28,13 @@ public class Company {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    public Address getAddress() {
+        return address;
     }
 }

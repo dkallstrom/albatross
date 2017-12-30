@@ -1,16 +1,26 @@
 package org.tokencreek.model.employee;
 
+import org.tokencreek.model.address.Address;
 import org.tokencreek.model.company.Company;
 
 
 public class Employee{
 
-    private Long id;
+    private Integer id;
     private String firstName;
     private String lastName;
     private Company company;
     private Integer companyId;
+    private Address address;
 
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 
     public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
@@ -28,7 +38,7 @@ public class Employee{
         this.company = company;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -40,7 +50,7 @@ public class Employee{
         return lastName;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
