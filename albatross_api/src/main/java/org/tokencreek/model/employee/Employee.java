@@ -1,0 +1,54 @@
+package org.tokencreek.model.employee;
+
+import org.tokencreek.model.company.Company;
+
+
+public class Employee{
+
+    private Long id;
+    private String firstName;
+    private String lastName;
+    private Company company;
+    private Integer companyId;
+
+
+    public void setCompanyId(Integer companyId) {
+        this.companyId = companyId;
+    }
+
+    public Integer getCompanyId() {
+        return companyId;
+    }
+
+    public Company getCompany() {
+        return company;
+    }
+
+    public void setCompany(Company company) {
+        this.company = company;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+}
