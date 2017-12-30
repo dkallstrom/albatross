@@ -18,6 +18,7 @@ import javax.ws.rs.core.Response;
 
 @Path("/v1")
 @RequestScoped
+@AlbatrossResource
 public class EmployeeResource {
 
 

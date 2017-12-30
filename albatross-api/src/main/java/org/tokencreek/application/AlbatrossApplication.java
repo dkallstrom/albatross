@@ -1,9 +1,8 @@
 package org.tokencreek.application;
 
 
-import org.tokencreek.api.AlbatrossApi;
-import org.tokencreek.resource.CompanyResource;
-import org.tokencreek.resource.EmployeeResource;
+import org.reflections.Reflections;
+import org.tokencreek.resource.AlbatrossResource;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -14,13 +13,16 @@ import java.util.Set;
 public class AlbatrossApplication extends Application {
 
 
+    private Set<Class<?>> findAllResources(){
+        Reflections reflections = new Reflections("org.tokencreek.resource");
+        return reflections.getTypesAnnotatedWith(AlbatrossResource.class);
+
+    }
     @Override
     public Set<Class<?>> getClasses(){
-
-        HashSet h = new HashSet<Class<?>> ();
-        h.add(AlbatrossApi.class);
-        h.add(CompanyResource.class);
-        h.add(EmployeeResource.class);
-        return  h;
+        Set<Class<?>> resources = new HashSet();
+        resources.addAll(findAllResources());
+        resources.add(AlbatrossApplication.class);
+        return resources;
     }
 }
