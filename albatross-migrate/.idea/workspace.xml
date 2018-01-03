@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cac1dd67-8f48-4c39-ba40-cb6a741c8dd8" name="Default" comment="">
+    <list default="true" id="cac1dd67-8f48-4c39-ba40-cb6a741c8dd8" name="Default" comment="navigation">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1.3__Create_Navigation.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1.4__Create_Navigation_Company.sql" />
+      <change beforePath="$PROJECT_DIR$/../albatross-api/albatross_api.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-api/src/main/java/org/tokencreek/resource/EmployeeResource.java" afterPath="$PROJECT_DIR$/../albatross-api/src/main/java/org/tokencreek/resource/EmployeeResource.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/tokencreek/migrate/AlbatrossMigration.java" afterPath="$PROJECT_DIR$/src/main/java/org/tokencreek/migrate/AlbatrossMigration.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1.1__Create_Albatross.sql" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1.1__Create_Albatross.sql" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/tokencreek/migrate/data-source.properties" afterPath="$PROJECT_DIR$/src/main/resources/org/tokencreek/migrate/data-source.properties" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/.idea/artifacts/albatross_api_war_exploded.xml" afterPath="$PROJECT_DIR$/../albatross_api/.idea/artifacts/albatross_api_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/.idea/libraries/Maven__javax_enterprise_cdi_api_1_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../albatross_api/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/albatross_api.iml" afterPath="$PROJECT_DIR$/../albatross_api/albatross_api.iml" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/pom.xml" afterPath="$PROJECT_DIR$/../albatross_api/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/Company.java" afterPath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/model/company/Company.java" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/application/AlbatrossApplication.java" afterPath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/application/AlbatrossApplication.java" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/mapper/CompanyMapper.java" afterPath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/mapper/CompanyMapper.java" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/resource/CompanyResource.java" afterPath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/resource/CompanyResource.java" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/service/CompanyService.java" afterPath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/service/company/CompanyService.java" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/service/CompanyServiceImpl.java" afterPath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/service/company/impl/CompanyServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/session/SqlSessionFactoryProvider.java" afterPath="$PROJECT_DIR$/../albatross_api/src/main/java/org/tokencreek/session/SqlSessionFactoryProvider.java" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/src/main/resources/beans.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/src/main/resources/org/tokencreek/session/mappers.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../albatross_api/src/main/resources/org/tokencreek/session/mybatis-config.xml" afterPath="$PROJECT_DIR$/../albatross_api/src/main/resources/org/tokencreek/session/mybatis-config.xml" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/app.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/components/version/interpolate-filter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/components/version/interpolate-filter_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/components/version/version-directive.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/components/version/version-directive_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/components/version/version.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/components/version/version_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/index-async.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/view1/view1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/view1/view1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/view1/view1_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/view2/view2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/view2/view2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/app/view2/view2_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/e2e-tests/protractor.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../albatross-web/e2e-tests/scenarios.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,14 +64,44 @@
       <file leaf-file-name="V1.1__Create_Albatross.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.1__Create_Albatross.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data-source.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="V1.2__Create_Address.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.2__Create_Address.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V1.3__Create_Navigation.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.3__Create_Navigation.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V1.4__Create_Navigation_Company.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.4__Create_Navigation_Company.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data-source.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/org/tokencreek/migrate/data-source.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -114,6 +148,9 @@
         <option value="$PROJECT_DIR$/src/main/java/org/tokencreek/migrate/AlbatrossMigration.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1.1__Create_Albatross.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/org/tokencreek/migrate/data-source.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1.2__Create_Address.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1.3__Create_Navigation.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/db/migration/V1.4__Create_Navigation_Company.sql" />
       </list>
     </option>
   </component>
@@ -130,7 +167,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2092" />
     <option name="y" value="4" />
     <option name="width" value="1376" />
@@ -152,9 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,12 +243,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../albatross_api/albatross_api.iml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -357,36 +399,47 @@
       <workItem from="1514586064465" duration="27000" />
       <workItem from="1514597079700" duration="2226000" />
       <workItem from="1514653118773" duration="470000" />
+      <workItem from="1514654321866" duration="1355000" />
+      <workItem from="1514655843006" duration="30000" />
+      <workItem from="1514938132489" duration="688000" />
     </task>
+    <task id="LOCAL-00001" summary="address table">
+      <created>1514655577584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1514655577584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6516000" />
+    <option name="totallyTimeSpent" value="8589000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2092" y="4" width="1376" height="896" extended-state="0" />
+    <frame x="1919" y="0" width="1602" height="900" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.214375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -401,35 +454,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="address table" />
+    <MESSAGE value="navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="navigation" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/org/tokencreek/migrate/data-source.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/docker-compose/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.1__Create_Albatross.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -606,13 +640,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../albatross_api/albatross_api.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../albatross_api/albatross_api.iml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -804,25 +832,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../albatross_api/albatross_api.iml">
+    <entry file="file://$PROJECT_DIR$/../albatross_api/albatross_api.iml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/org/tokencreek/migrate/data-source.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.1__Create_Albatross.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/org/tokencreek/migrate/data-source.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.2__Create_Address.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.3__Create_Navigation.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1.4__Create_Navigation_Company.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
           <folding />
         </state>
       </provider>
