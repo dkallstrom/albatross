@@ -35,6 +35,6 @@ public class CompanyResource {
         Company company = this.companyService.getCompanyById(companyId);
         String json = new GsonBuilder().create().toJson(company);
         logger.info("Json Company  {} ", json);
-        return javax.ws.rs.core.Response.ok(json, MediaType.APPLICATION_JSON).build();
+        return javax.ws.rs.core.Response.ok(json, MediaType.APPLICATION_JSON).header("Access-Control-Allow-Origin","*").build();
     }
 }

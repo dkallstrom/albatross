@@ -35,6 +35,6 @@ public class EmployeeResource {
 
         String json = new GsonBuilder().create().toJson(employee);
         logger.info("Json Employee  {} ", json);
-        return Response.ok(json, MediaType.APPLICATION_JSON).build();
+        return Response.ok(json, MediaType.APPLICATION_JSON).header("Access-Control-Allow-Origin","*").build();
     }
 }
